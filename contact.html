@@ -1,0 +1,130 @@
+<!--name: Carlos Mauricio Bravo Salcedo-->
+<!--Student Number: 8917858-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description of the page for SEO">
+    <meta name="keywords" content="Shakira">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+<style>
+    h1{
+        color: black;
+    }
+</style>
+    <title>Shakira</title>
+</head>
+<body>
+    <header>
+        <h1 id="header-heading" class="headings">Shakira</h1>
+    </header>
+    <nav>
+        <ul>
+            <li id="home-link"><a href="index.html">Home</a> </li>
+            <li id="contact-link"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+       <h2> Contact</h2>
+        <form name="contact_form" id="contact_form" method="post" action="contact.php">
+            <div>
+                <input type="hidden" name="userid" value="1234">
+                <input type="hidden" name="honeypot" value="">
+            </div>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="firstname" id="--name">
+            </div>
+            <div>
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <Div>
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" id="dob" min="2000-01-01" max="2024-03-14"><br>
+            </Div>
+            <div>
+                <label for="colour">What is your favourite colour</label>
+                <input type="color" name="colour" id="colour"><br>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone"><br>
+                </div>
+            </div>
+            <div>
+                <label for="pmc">Prefered Method of Contact</label>
+                <select id="pmc" name="pmc">
+                    <option>Select</option>
+                        <option value="1">Email</option>
+                        <option value="2">Phone</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            </div>
+            <div>
+                <label for="robot">I am not a robot</label>
+                <input type="checkbox" name="robot" id="robot" value="true">
+                <button type="submit" name="bt1" id="bt1">Submit</button>
+            </div>
+
+
+
+        </form>
+
+
+        </main>
+        <aside>
+            <h3>FAQs</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Years active</td>
+                    <td>1990 to present</td>
+
+                </tr>
+                <tr>
+                    <td>Children</td>
+                    <td>2</td>
+
+                </tr>
+                <tr>
+                    <td>Organization</td>
+                    <td>BarefootFoundation</td>
+
+                </tr>
+                <tr>
+                    <td>Genres</td>
+                    <td>Latin pop Reggaeton</td>
+
+                </tr>
+                <tr>
+                    <td>Occupation</td>
+                    <td>Singer-songwriter</td>
+
+                </tr>
+            </tbody>
+            </tfoot>
+        </table>
+        <h3> Resourses </h3>
+        <a href="https://www.youtube.com/watch?v=GrQtaf48k2Q" target="_blank">YouTube</a>
+        <a href="https://www.instagram.com/shakira/?hl=en" target="_blank">Instagram</a><br />
+        <a href="https://www.theguardian.com/music/2024/mar/23/shakira-las-mujeres-ya-no-lloran-review-the-latin-queen-is-back-on-top" target="_blank">Las Mujeres Ya No Lloran</a>
+        </aside>
+        
+    <footer>
+        <p>&copy; Carlos Mauricio Bravo Salcedo - 2024</p>
+    </footer>
+
+    
+</body>
+</html>

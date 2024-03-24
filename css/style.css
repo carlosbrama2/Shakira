@@ -1,0 +1,218 @@
+/* Name: Carlos Mauricio Bravo Salcedo*/ 
+/* Student Number: 8917858*/
+html {
+    font: 20px/1.5 Arial, sans-serif;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem; 
+}
+
+q {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 1.2rem; 
+}
+footer p {
+    font-size: 0.8rem; 
+}
+body {
+    width: 80%; 
+    max-width: 1200px; 
+}
+img {
+    width: 20%; 
+    height: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+}
+figure {
+    width: 100%; 
+}
+
+iframe, video {
+    width: 80%; 
+}
+body {
+    padding: 1rem; 
+    margin: 0 auto; 
+    background-color: #d0ff00;
+}
+header, footer {
+    text-align: center;
+}
+main section {
+    text-align: center;
+    padding: 1rem; 
+    background-color: #0022ff;
+}
+#Biography {
+    text-align: left;
+}
+img {
+    padding: 0.5rem; 
+}
+figure {
+    padding: 0.5rem; 
+    margin: 1rem 0; 
+    text-align: center;
+}
+blockquote #Biography q {
+    padding: 0.5rem; 
+}
+iframe, video {
+    padding: 0.5rem; 
+}
+header, footer {
+    border: 2px solid #333;
+}
+img {
+    border-radius: 5px; 
+}
+#relative-path-image{
+    width: 100%;
+}
+iframe, video {
+    border: 2px solid rgb(0, 0, 255); 
+    border-radius: 5px; 
+}
+blockquote #Biography q {
+     border: 2px solid #000000; 
+      box-shadow: 2px 2px 2px #000000; 
+}
+iframe, video {
+     border: 2px solid #999; 
+}
+#relative_image figcaption {
+     color: rgb(255, 0, 0); 
+}
+#absolute_image figcaption {
+      color: rgb(0, 255, 0); 
+}
+h1, h2 {
+     color: rgb(0, 0, 0); 
+}
+header, footer {
+    background: linear-gradient(to right, #f6ff00, #0000ff, red); 
+    margin: .25rem ;
+}
+.main-section {
+    background-color: hsl(0, 0%, 0%); 
+}
+#absolute_image {
+    background-color: hsla(0, 0%, 0%, 0.3); 
+
+}
+#relative_image {
+    background-color: hsla(60, 100%, 50%, 0.3); 
+}
+blockquote {
+    border: 2px solid #010101; 
+    padding: 1rem; 
+    background-color: #ff0000;
+}
+aside ul{
+    list-style-type: none;
+}
+nav{
+    background-color: #ff0000;
+    padding: .25rem;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: .25rem;
+    margin: .25rem;
+}
+nav ul li a{
+    background-color: white;
+    border: 0.1rem solid black;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+nav ul li a:hover{
+    background-color: yellow;
+    border: 0.1rem solid white;
+    color: white;
+}
+#home-link{
+    float: left;
+    width: 50%;
+}
+#contact-link{
+    float: right;
+    width: 50%;
+}
+main{
+    clear: both;
+    margin: .25rem;
+    padding: .25rem;
+    float: left;
+    width: 65%;
+}
+aside{
+    margin: .25rem;
+    float: right;
+    padding: .25rem;
+    width: 25%;
+}
+footer{
+    clear: both;
+}
+#bio{
+    float: right;
+    width: 45%;
+}
+
+.main-section{
+    clear: both;
+    background-color: blue;
+}
+td {
+    border: 2px solid #f60000;
+    text-align: center;
+}
+a{
+    color: #0000ff;
+}
+h3{
+    color: #f60000;
+    text-align: center;
+}
+input{
+    width: 100%;
+}
+@media (max-width: 900px){
+    html{
+        font-size: 15px;
+    }
+    #bio{
+            float: none;
+            width: 80%;
+    }
+    #relative-path-image{
+        float: none;
+        width: 80%;
+    }
+}
+@media (max-width: 600px){
+    html{
+        font-size: 10px;
+    }
+    #home-link, #contact-link, main, aside{
+        float: none;
+        width: 100%;
+    }
+
+    
+}
